@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,10 +21,10 @@
     <title>Shop Homepage - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="${css}/bootstrap.min.css" rel="stylesheet">
+    <link href="${css }/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="${css}/myapp.css" rel="stylesheet">
+    <link href="${css }/shop-homepage.css" rel="stylesheet">
 
   </head>
 
@@ -223,8 +223,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="${js}/jquery.js"></script>
-    <script src="${js}/bootstrap.min.js"></script>
+    <script src="${js }/jquery.min.js"></script>
+    <script src="${js }/bootstrap.bundle.min.js"></script>
 
   </body>
 
