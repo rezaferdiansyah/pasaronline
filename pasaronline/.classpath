@@ -28,5 +28,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/JAR FILE/spring-context-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/JAR FILE/commons-logging-1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -10,10 +10,17 @@
   
   <properties>
   		<javaee.version>7.0</javaee.version>
-  		<spring.version>4.3.12.RELEASE</spring.version>
+  		<spring.version>5.0.0.RELEASE</spring.version>
   </properties>
   
   <dependencies>
+  
+  	<!-- Link ke Backend/admin Page -->
+  	<dependency>
+  		<groupId>net.rf</groupId>
+  		<artifactId>pasaronlinebackend</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   
   
   	<!-- JAVA EE API -->
@@ -34,6 +41,17 @@
     </dependency>
     
     <!-- SPRING -->
+    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
+	</dependency>
     <dependency>
     	<groupId>org.springframework</groupId>
       	<artifactId>spring-webmvc</artifactId>
@@ -59,7 +77,8 @@
         		<target>1.8</target>
         	</configuration>
         </plugin>
-  	</plugins>
+    </plugins>
+    
     <finalName>pasaronline</finalName>
   </build>
 </project>
